@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function InternCard(props) {
-  console.log(props);
+
   return (
     <div className=" w-[18rem]  bg-[#E6E6E6] rounded-xl flex flex-col z-[15] ">
       <img className="z-[10] rounded-t-xl  " src={props.data.image} />
