@@ -120,8 +120,8 @@ export default function Index() {
             <div className="flex flex-col border border-[#368DFF] w-[48%] gap-2 rounded px-8 py-4 ">
               <img src="/svg/education.svg" className="w-12 h-12" />
               <div className="text-[#368DFF] font-semibold text-xl">
-                {" "}
-                What will you get{" "}
+            
+                What will you get
               </div>
               <div className="text-[#676D82] font-regular text-sm">
                 {[
@@ -141,7 +141,7 @@ export default function Index() {
             <div className="flex flex-col border border-[#368DFF] w-[48%] gap-2 rounded px-8 py-4 ">
               <img src="/svg/work.svg" className="w-12 h-12" />
               <div className="text-[#368DFF] font-semibold text-xl">
-                {" "}
+               
                 What will you learn
               </div>
               <div className="text-[#676D82] font-regular text-sm">
