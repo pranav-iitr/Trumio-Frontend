@@ -1,13 +1,13 @@
 export default function Overview() {
   return (
     <>
-      <div className="w-[100vw] bg-white mt-[4rem]">
+      <div className="w-[100vw] bg-white mt-[5rem]">
         <div className="flex justify-between mx-24">
           <div className=" flex-col w-[48vw]">
-            <h1 className="text-[2.2vw] font-bold">
+            <h1 className="text-[2.2vw] font-[lato] font-bold">
               Why should you do this virtual internship?
             </h1>
-            <h2 className="text-[1.4vw] mt-3">
+            <h2 className="text-[1.4vw] font-[lato] mt-3">
               Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
               mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
               fringilla, mattis ligula consectetur.
@@ -34,7 +34,9 @@ export default function Overview() {
                 "-2px -2px 4px 0px rgba(0, 0, 0, 0.05), 2px 2px 4px 0px rgba(0, 0, 0, 0.05)",
             }}
           >
-            <h2 className="text-[1.4vw] ">Skills you will learn:</h2>
+            <h2 className="text-[1.4vw] font-[lato] ">
+              Skills you will learn:
+            </h2>
             <div className="flex flex-wrap mt-4 gap-3 ">
               <div className="w-[1/2.5] py-1 px-3 items-center text-[#0F77FF] rounded-3xl text-center border border-solid border-blue-400 border-opacity-50">
                 Self paced
@@ -78,8 +80,8 @@ export default function Overview() {
             </div>
           </div>
         </div>
-        <div className=" flex  justify-center mb-32 mt-20">
-          <h1 className="text-[2.2vw] text-[#515151] font-bold">
+        <div className=" flex  justify-center mb-32 mt-32">
+          <h1 className="text-[2.2vw] text-[#515151] font-bold font-[lato]">
             <span className="">Just</span>
             <span className="text-[#0F77FF]"> three</span>
             <span className=""> simple steps</span>
@@ -105,7 +107,7 @@ export default function Overview() {
               2
             </h2>
             <img src="./imgs/icon2.png" className=" mt-10 w-20 h-20" />
-            <h1 className="mt-4 text-[1.4vw] text-[rgb(103,109,130)] font-semibold">
+            <h1 className="mt-4 text-[1.4vw] text-[rgb(103,109,130)] font-semibold ">
               Complete the
             </h1>
             <h1 className=" text-[1.4vw] text-[rgb(103,109,130)] font-semibold">

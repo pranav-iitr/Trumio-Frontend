@@ -20,7 +20,7 @@ export default function Testmain() {
               <br /> career with our platform's job simulations, crafted by top
               employers.
             </div>
-            <div className="ripple mt-4 mb-16">
+            <div className="ripple mt-6 mb-16">
               <div className=" cursor-pointer text-[#0F77FF]  font-[lato] flex font-bold items-center bg-white h-8 pb-[4px]  px-5 rounded ">
                 Register
               </div>

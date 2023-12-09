@@ -1,7 +1,7 @@
 export default function Tfooter(){
     return (
       <>
-      <div className="mt-20">
+      <div className="mt-28">
         <img src="./imgs/tfooter.png" className=""/>
       </div>
         <div className="flex justify-between ml-20 mr-20 mt-32 mb-10">

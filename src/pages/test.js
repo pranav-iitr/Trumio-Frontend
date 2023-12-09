@@ -19,21 +19,21 @@ export default function Test() {
     <div>
       <Desktop />
       <Testmain />
-      <div className="flex mt-[3rem]  sm:gap-48 mx-auto">
+      <div className="flex mt-[3rem] font-[lato] font-bold  sm:gap-48 mx-auto">
         <div
-          className="cursor-pointer p-10 text-[#515151] ml-auto hover:text-[#0F77FF] text-[1.4vw]"
+          className="cursor-pointer p-10 text-[#515151] ml-auto hover:text-[#0F77FF] text-[1.5vw]"
           onClick={() => handleTabClick(overviewRef)}
         >
           Overview
         </div>
         <div
-          className="cursor-pointer p-10 text-[#515151] hover:text-[#0F77FF] text-[1.4vw]"
+          className="cursor-pointer p-10 text-[#515151] hover:text-[#0F77FF] text-[1.5vw]"
           onClick={() => handleTabClick(taskRef)}
         >
           Tasks
         </div>
         <div
-          className="cursor-pointer p-10 text-[#515151] hover:text-[#0F77FF] mr-auto text-[1.4vw]"
+          className="cursor-pointer p-10 text-[#515151] hover:text-[#0F77FF] mr-auto text-[1.5vw]"
           onClick={() => handleTabClick(TestinomialRef)}
         >
           Reviews

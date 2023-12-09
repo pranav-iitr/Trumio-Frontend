@@ -1,7 +1,7 @@
 export default function Card(props) {
 
   return (
-    <div className="w-[21rem] h-[13.2rem] flex items-start flex-col border-2 rounded-lg border-[#DEDEDE] ">
+    <div className="w-[21rem] h-[13.2rem] flex items-start flex-col border-2 rounded-lg border-[#DEDEDE] mt-4">
       <div className="flex-[0.6] w-[100%] gap-5 flex flex-col items-between justify-start p-3">
         <img src="/svg/apstroph.svg" className="!w-7 h-7 " />
         <div className="text-[#333] text-[0.75rem] text-left font-normal">
