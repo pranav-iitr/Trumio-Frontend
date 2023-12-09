@@ -4,21 +4,21 @@ export default function Footer() {
   return (
     <>
       <div
-        className="h-[80vh] w-[100vw]"
+        className=" w-[100vw] py-16"
         style={{
           background:
             "var(--linear-linear-50, linear-gradient(134deg, #FFF 29.52%, #C7E6FF 118.05%))",
         }}
       >
-        <div className=" flex  justify-center mt-16">
+        <div className=" flex  justify-center mb-32">
           <h1 className="text-[2.2vw] text-[#515151] font-bold">
             <span className="">Just</span>
             <span className="text-[#0F77FF]"> three</span>
             <span className=""> simple steps</span>
           </h1>
         </div>
-        <div className=" flex gap-20 mt-12">
-          <div className="w-[24vw] h-[28vh] rounded-md ml-auto bg-white flex flex-col justify-center items-center border border-solid border-blue-400 border-opacity-50 p-20">
+        <div className=" flex gap-20 flex-wrap justify-center mt-12">
+          <div className="w-[28rem] h-[28vh]  rounded-md bg-white flex flex-col justify-center items-center border border-solid border-blue-400 border-opacity-50 p-20">
             <img src="./imgs/ellipse.png" className="w-16 h-16 mt-[-5rem]" />
             <h2 className="text-[#0F77FF] font-bold text-[1.2vw] mt-[-3rem]">
               1
@@ -31,7 +31,7 @@ export default function Footer() {
               Job Simulation
             </h1>
           </div>
-          <div className="w-[24vw] h-[28vh] rounded-md  bg-white flex flex-col justify-center items-center border border-solid border-blue-400 border-opacity-50 p-20">
+          <div className="w-[28rem]  h-[28vh] rounded-md  bg-white flex flex-col justify-center items-center border border-solid border-blue-400 border-opacity-50 p-20 ">
             <img src="./imgs/ellipse.png" className="w-16 h-16 mt-[-5rem]" />
             <h2 className="text-[#0F77FF] font-bold text-[1.2vw] mt-[-3rem]">
               2
@@ -44,7 +44,7 @@ export default function Footer() {
               given tasks
             </h1>
           </div>
-          <div className="w-[24vw] h-[28vh] rounded-md mr-auto bg-white flex flex-col justify-center items-center border border-solid border-blue-400 border-opacity-50 p-20">
+          <div className="w-[28rem]  h-[28vh] rounded-md bg-white flex flex-col justify-center items-center border border-solid border-blue-400 border-opacity-50 p-20">
             <img src="./imgs/ellipse.png" className="w-16 h-16 mt-[-5rem]" />
             <h2 className="text-[#0F77FF] font-bold text-[1.2vw] mt-[-3rem]">
               3
@@ -72,7 +72,7 @@ export default function Footer() {
               </span>
             </h1>
           </div>
-          <div className="w-[27vw] flex gap-20 ">
+          <div className=" flex gap-20 ">
             <div className="flex-col">
               <h1 className="font-semibold">Company</h1>
               <h2 className="mt-8">About Us</h2>
