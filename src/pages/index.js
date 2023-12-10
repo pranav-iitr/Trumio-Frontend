@@ -18,7 +18,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={`flex flex-col ${inter.className}`}>
+    <main className={`flex flex-col `}>
       {/* <Task/> */}
       <Desktop />
       <Main />
@@ -33,7 +33,7 @@ export default function Home() {
           }}
           className="w-[100vw] flex justify-center py-16 flex-col items-center "
         >
-          <div className="flex justify-start gap-16 w-[90vw] flex-wrap">
+          <div className="flex justify-center gap-16 w-[90vw] flex-wrap">
             {internData.map((data) => (
               <InternCard key={data.id} data={data} />
             ))}
