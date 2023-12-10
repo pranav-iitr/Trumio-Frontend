@@ -6,6 +6,64 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import SearchIcon from "@mui/icons-material/Search";
 import ImportExportIcon from "@mui/icons-material/ImportExport";
 export default function data() {
+
+  const RandData = [
+    {
+        id:0,
+        name: "Pari Aggarwal",
+        status:"complete",
+        status_color:"green",
+        score:"9",
+        recommendations:"Strongly Yes",
+        report:"#",
+    },
+    {
+        id:1,
+        name: "Pari Aggarwal",
+        status:"complete",
+        status_color:"green",
+        score:"9",
+        recommendations:"Strongly Yes",
+        report:"#",
+    },
+    {
+        id:2,
+        name: "Pari Aggarwal",
+        status:"complete",
+        status_color:"green",
+        score:"9",
+        recommendations:"Strongly Yes",
+        report:"#",
+    },
+    {
+        id:3,
+        name: "Pari Aggarwal",
+        status:"complete",
+        status_color:"green",
+        score:"9",
+        recommendations:"Strongly Yes",
+        report:"#",
+    },
+    {
+        id:4,
+        name: "Pari Aggarwal",
+        status:"complete",
+        status_color:"green",
+        score:"9",
+        recommendations:"Strongly Yes",
+        report:"#",
+    },
+    {
+        id:5,
+        name: "Pari Aggarwal",
+        status:"complete",
+        status_color:"green",
+        score:"9",
+        recommendations:"Strongly Yes",
+        report:"#",
+    },
+  ]
+
   return (
     <>
       <div className="flex min-h-screen">
@@ -70,7 +128,7 @@ export default function data() {
           </h2>
           <div className="mt-6 mx-14">
             <div className="flex gap-5 ">
-              <div className="bg-white h-[9vh] w-[18vw] px-5 py-4 rounded-xl border border-solid border-blue-300">
+              <div className="bg-white h-[10vh] w-[18vw] flex flex-col items-left justify-center pl-[20px] rounded-xl border border-solid border-blue-300">
                 <h3 className="text-[rgba(3, 2, 41, 1)] text-[0.9vw]">
                   Candidates accessed :
                 </h3>
@@ -78,7 +136,7 @@ export default function data() {
                   101
                 </h4>
               </div>
-              <div className="bg-white h-[9vh] w-[18vw] px-5 py-4 rounded-xl border border-solid border-blue-300">
+              <div className="bg-white h-[10vh] w-[18vw] flex flex-col items-left justify-center pl-[20px] rounded-xl border border-solid border-blue-300">
                 <h3 className="text-[rgba(3, 2, 41, 1)] text-[0.9vw]">
                   No of candidates applied :
                 </h3>
@@ -96,21 +154,28 @@ export default function data() {
                 <div className="text-[1vw]">Report</div>
               </div>
               <hr />
-              <div className="mx-10 h-[5.5vh] items-center flex "></div>
+     
+         <div>
+{RandData.map((Data) => {
+  return (
+    <>
+    <div key={Data.id} className="mx-10 h-[5.5vh] justify-between items-center flex ">
+                <div>{Data.name}</div>
+                <div className="flex items-center gap-x-2 ml-[-6vw]"><div className="h-[12px] w-[12px] bg-[green] rounded-3xl"/><div>{Data.status}</div></div>
+                <div className="ml-[-5vw]">{Data.score}</div>
+                <div className="ml-[4vw]">{Data.recommendations}</div>
+                <div className="pr-[14px]"><a href={Data.report}>View</a></div>
+              </div>
               <hr />
-              <div className="mx-10 h-[5.5vh] items-center flex gap-[10vw]"></div>
-              <hr />
-              <div className="mx-10 h-[5.5vh] items-center flex gap-[10vw]"></div>
-              <hr />
-              <div className="mx-10 h-[5.5vh] items-center flex gap-[10vw]"></div>
-              <hr />
-              <div className="mx-10 h-[5.5vh] items-center flex gap-[10vw]"></div>
-              <hr />
-              <div className="mx-10 h-[5.5vh] items-center flex gap-[10vw]"></div>
-              <hr />
-              <div className="mx-10 h-[5.5vh] items-center flex gap-[10vw]"></div>
-              <hr />
-              <div className="mx-10 h-[5.5vh] items-center flex gap-[10vw]"></div>
+    </>
+  )
+})}
+         
+   
+              
+              
+              </div>
+
             </div>
           </div>
         </div>
