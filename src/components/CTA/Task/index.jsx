@@ -53,7 +53,7 @@ export default function Index() {
       <div className="w-[100vw] w-[90rem] px-[5vw] h-[30rem] flex justify-center mt-14 ">
         <div
           styles={{ scrollbarFaceColor: "#000000" }}
-          className=" flex-[0.25] overflow-scroll "
+          className=" flex-[0.25] overflow-y-scroll "
         >
           {data.map((item, id) => {
             return (
@@ -112,7 +112,7 @@ export default function Index() {
             );
           })}
         </div>
-        <div className="flex-[0.75] font-[Be Vietnam Pro] flex flex-col gap-5 overflow-scroll justify-start items-start px-8 py-4">
+        <div className="flex-[0.75] font-[Be Vietnam Pro] flex flex-col gap-5 overflow-y-scroll justify-start items-start px-8 py-4">
           <div className=" text-[#383838] font-bold text-2xl ">
             Task Overview
           </div>

@@ -96,8 +96,7 @@ export default function data() {
                 <div className="text-[1vw]">Report</div>
               </div>
               <hr />
-              <div className="mx-10 h-[5.5vh] items-center flex ">
-               </div>
+              <div className="mx-10 h-[5.5vh] items-center flex "></div>
               <hr />
               <div className="mx-10 h-[5.5vh] items-center flex gap-[10vw]"></div>
               <hr />

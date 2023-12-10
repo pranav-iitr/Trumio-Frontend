@@ -1,8 +1,8 @@
 export default function Testmain() {
     return (
-      <>
-        <img src="./imgs/secondbanner.jpeg" className="w-[100vw] h-[70vh]" />
-        <div className="w-[100vw] h-[70vh] flex px-[5vw] justify-between mt-[-40rem]">
+      <div>
+        <img src="./imgs/secondbanner.jpeg" className="w-[100vw] h-[70vh] " />
+        <div className="w-[100vw] h-[70vh] flex px-[5vw] justify-between -mt-[70vh]">
           <div className="flex flex-col justify-center items-start w-[50%]">
             <div className="bg-green ">
               <img
@@ -27,6 +27,6 @@ export default function Testmain() {
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
 }
