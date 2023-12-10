@@ -6,7 +6,11 @@ import Main from "@/components/CTA/main";
 import InternCard from "@/components/internCard";
 import Testmonial from "@/components/CTA/Testmonial";
 import Footer from "@/components/footer";
+import SideNavbar from "@/components/SideNavbar/Desktop"
+import Client from "@/components/Client/Client"
 import { getInternData } from "@/hooks/internship";
+import Data from "./data"
+import Task from "../components/CTA/Task/index"
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -18,6 +22,7 @@ export default function Home() {
 
   return (
     <main className={`flex flex-col ${inter.className}`}>
+      {/* <Task/> */}
       <Desktop />
       <Main />
       <div className="mt-8 flex flex-col items-center mb-16">
