@@ -219,12 +219,15 @@ export default function Index() {
                   drop
                 </p>
                 <p class="text-xs text-[#368DFF] ">
-                  SVG, PNG, JPG or GIF (MAX. 800x400px)
+                  PDF (MAX. 800x400px)
                 </p>
               </div>
-              <input id="dropzone-file" type="file" class="hidden" />
+              <input id="dropzone-file" accept="application/pdf" type="file" class="hidden" />
             </label>
           </div>
+
+            <button className="h-[30px] w-[5rem] bg-[#0F77FF] text-[white] rounded-md">Submit</button>
+
         </div>
       </div>
     </>
