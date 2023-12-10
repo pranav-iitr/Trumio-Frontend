@@ -7,7 +7,7 @@ import InternCard from "@/components/internCard";
 import Testmonial from "@/components/CTA/Testmonial";
 import Footer from "@/components/footer";
 import SideNavbar from "@/components/SideNavbar/Desktop"
-import Client from "@/components/Client/Client"
+import Client from "@/pages/client"
 import { getInternData } from "@/hooks/internship";
 import Data from "./data"
 import Task from "../components/CTA/Task/index"
