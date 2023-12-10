@@ -7,7 +7,6 @@ import InternCard from "@/components/internCard";
 import Testmonial from "@/components/CTA/Testmonial";
 import Footer from "@/components/footer";
 import { getInternData } from "@/hooks/internship";
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [internData, setInternData] = useState([]);
