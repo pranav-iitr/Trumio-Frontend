@@ -8,6 +8,8 @@ import Testmonial from "@/components/CTA/Testmonial";
 import Footer from "@/components/footer";
 import { getInternData } from "@/hooks/internship";
 
+
+
 export default function Home() {
   const [internData, setInternData] = useState([]);
   useEffect(() => {
@@ -17,6 +19,7 @@ export default function Home() {
 
   return (
     <main className={`flex flex-col ${inter.className}`}>
+      {/* <Task/> */}
       <Desktop />
       <Main />
       <div className="mt-8 flex flex-col items-center mb-16">
