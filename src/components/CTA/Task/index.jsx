@@ -131,7 +131,7 @@ export default function Index() {
                 ].map((item) => {
                   return (
                     <div className="flex gap-2">
-                      <img src="/svg/Check.svg" className="w-4 h-4" />
+                      
                       <div> {item} </div>
                     </div>
                   );
@@ -152,7 +152,7 @@ export default function Index() {
                 ].map((item) => {
                   return (
                     <div className="flex gap-2">
-                      <img src="/svg/Check.svg" className="w-4 h-4" />
+                      
                       <div> {item} </div>
                     </div>
                   );
